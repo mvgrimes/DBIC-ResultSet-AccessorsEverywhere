@@ -12,6 +12,10 @@ our $VERSION = '0.10';
 
 use parent 'DBIx::Class::ResultSet';
 
+# This is certainly buggy. It is just a proof of concept at the moment. I need
+# to think through conflicting accessor/column names, other methods that need
+# to be handled, etc.
+
 sub search {
     my $self  = shift;
     my $where = shift;
