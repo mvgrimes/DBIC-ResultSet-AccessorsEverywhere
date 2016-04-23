@@ -1,4 +1,4 @@
-package DBIx::Class::AccessorsEverywhere;
+package DBIx::Class::ResultSet::AccessorsEverywhere;
 
 # ABSTRACT: Component for DBIx::Class that allows the use of accessor names in search/create/etc
 
@@ -20,8 +20,6 @@ sub search {
     my $self  = shift;
     my $where = shift;
 
-    warn "# dbic-rs-ae: search\n";
-
     croak "search expects a hash ref or undef"
       unless !defined $where
       or ref $where eq 'HASH';
@@ -34,14 +32,20 @@ sub new_result {
     my $self = shift;
     my $attr = shift;
 
-    warn "# dbic-rs-ae: new_result\n";
-
     croak "new_result expects a hash ref or undef"
       unless !defined $attr
       or ref $attr eq 'HASH';
 
     my $new_attr = $self->_convert_accessors_to_columns( $attr // {} );
     return $self->next::method( $new_attr, @_ );
+}
+
+sub find {
+    my $self = shift;
+    my $attr = shift;
+
+    $attr = $self->_convert_accessors_to_columns($attr) if ref $attr eq 'HASH';
+    return $self->next::method( $attr, @_ );
 }
 
 sub _convert_accessors_to_columns {
@@ -80,7 +84,7 @@ __END__
 
 =head1 NAME
 
-DBIx::Class::AccessorsEverywhere - Component for DBIx::Class that allows the use of accessor names in search/create/etc
+DBIx::Class::ResultSet::AccessorsEverywhere - Component for DBIx::Class that allows the use of accessor names in search/create/etc
 
 =head1 VERSION
 

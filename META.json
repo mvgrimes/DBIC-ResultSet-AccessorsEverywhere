@@ -1,5 +1,5 @@
 {
-   "abstract" : "Tweaks to Perl::Tidy to support some syntactic sugar",
+   "abstract" : "Component for DBIx::Class that allows the use of accessor names in search/create/etc",
    "author" : [
       "Mark Grimes E<lt>mgrimes@cpan.orgE<gt>"
    ],
@@ -12,7 +12,7 @@
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
       "version" : "2"
    },
-   "name" : "DBIx-Class-AccessorsEverywhere",
+   "name" : "DBIx-Class-ResultSet-AccessorsEverywhere",
    "prereqs" : {
       "configure" : {
          "requires" : {
@@ -42,8 +42,8 @@
       }
    },
    "provides" : {
-      "DBIx::Class::AccessorsEverywhere" : {
-         "file" : "lib/DBIx/Class/AccessorsEverywhere.pm",
+      "DBIx::Class::ResultSet::AccessorsEverywhere" : {
+         "file" : "lib/DBIx/Class/ResultSet/AccessorsEverywhere.pm",
          "version" : "0.10"
       }
    },
