@@ -23,6 +23,7 @@ nytprof*
 .local-v*
 local/
 README
+.plenv-version
 
 # podweaver backups
 *.pm.bak
