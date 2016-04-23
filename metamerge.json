@@ -1,0 +1,13 @@
+{
+   "name" : "DBIx-Class-AccessorsEverywhere",
+   "resources" : {
+      "repository" : {
+         "web" : "http://github.com/mvgrimes/DBIx-Class-AccessorsEverywhere",
+         "url" : "http://github.com/mvgrimes/DBIx-Class-AccessorsEverywhere.git",
+         "type" : "git"
+      },
+      "bugtracker" : {
+         "web" : "http://github.com/mvgrimes/DBIx-Class-AccessorsEverywhere/issues"
+      }
+   },
+   "x_contributors" : [ ] }
