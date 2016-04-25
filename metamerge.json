@@ -2,12 +2,12 @@
    "name" : "DBIx-Class-ResultSet-AccessorsEverywhere",
    "resources" : {
       "repository" : {
-         "web" : "http://github.com/mvgrimes/DBIx-Class-AccessorsEverywhere",
-         "url" : "http://github.com/mvgrimes/DBIx-Class-AccessorsEverywhere.git",
+         "web" : "http://github.com/mvgrimes/DBIC-ResultSet-AccessorsEverywhere",
+         "url" : "http://github.com/mvgrimes/DBIC-ResultSet-AccessorsEverywhere.git",
          "type" : "git"
       },
       "bugtracker" : {
-         "web" : "http://github.com/mvgrimes/DBIx-Class-AccessorsEverywhere/issues"
+         "web" : "http://github.com/mvgrimes/DBIC-ResultSet-AccessorsEverywhere/issues"
       }
    },
    "x_contributors" : [ ] }

@@ -92,8 +92,8 @@ version 0.10
 
 =head1 STATUS
 
-=for html <a href="https://travis-ci.org/mvgrimes/DBIx-Class-AccessorsEverywhere"><img src="https://travis-ci.org/mvgrimes/DBIx-Class-AccessorsEverywhere.svg?branch=master" alt="Build Status"></a>
-<a href="https://metacpan.org/pod/DBIx::Class::AccessorsEverywhere"><img alt="CPAN version" src="https://badge.fury.io/pl/DBIx-Class-AccessorsEverywhere.svg" /></a>
+=for html <a href="https://travis-ci.org/mvgrimes/DBIC-ResultSet-AccessorsEverywhere"><img src="https://travis-ci.org/mvgrimes/DBIC-ResultSet-AccessorsEverywhere.svg?branch=master" alt="Build Status"></a>
+<a href="https://metacpan.org/pod/DBIx::Class::ResultSet::AccessorsEverywhere"><img alt="CPAN version" src="https://badge.fury.io/pl/DBIC-ResultSet-AccessorsEverywhere.svg" /></a>
 
 =head1 DESCRIPTION
 
@@ -147,7 +147,7 @@ L<DBIx::Class>
 
 =head1 BUGS
 
-Please report any bugs or feature requests on the bugtracker website L<http://github.com/mvgrimes/DBIx-Class-AccessorsEverywhere/issues>
+Please report any bugs or feature requests on the bugtracker website L<http://github.com/mvgrimes/DBIC-ResultSet-AccessorsEverywhere/issues>
 
 When submitting a bug or request, please include a test-file or a
 patch to an existing test-file that illustrates the bug or desired
@@ -159,7 +159,7 @@ Mark Grimes E<lt>mgrimes@cpan.orgE<gt>
 
 =head1 SOURCE
 
-Source repository is at L<https://github.com/mvgrimes/DBIx-Class-AccessorsEverywhere>.
+Source repository is at L<https://github.com/mvgrimes/DBIC-ResultSet-AccessorsEverywhere>.
 
 =head1 COPYRIGHT AND LICENSE
 

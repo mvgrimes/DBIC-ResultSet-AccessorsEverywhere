@@ -9,8 +9,8 @@ version 0.10
 # STATUS
 
 <div>
-    <a href="https://travis-ci.org/mvgrimes/DBIx-Class-AccessorsEverywhere"><img src="https://travis-ci.org/mvgrimes/DBIx-Class-AccessorsEverywhere.svg?branch=master" alt="Build Status"></a>
-    <a href="https://metacpan.org/pod/DBIx::Class::AccessorsEverywhere"><img alt="CPAN version" src="https://badge.fury.io/pl/DBIx-Class-AccessorsEverywhere.svg" /></a>
+    <a href="https://travis-ci.org/mvgrimes/DBIC-ResultSet-AccessorsEverywhere"><img src="https://travis-ci.org/mvgrimes/DBIC-ResultSet-AccessorsEverywhere.svg?branch=master" alt="Build Status"></a>
+    <a href="https://metacpan.org/pod/DBIx::Class::ResultSet::AccessorsEverywhere"><img alt="CPAN version" src="https://badge.fury.io/pl/DBIC-ResultSet-AccessorsEverywhere.svg" /></a>
 </div>
 
 # DESCRIPTION
@@ -65,7 +65,7 @@ DBIx::Class methods have been tested, others might work, but need to be tested.
 
 # BUGS
 
-Please report any bugs or feature requests on the bugtracker website [http://github.com/mvgrimes/DBIx-Class-AccessorsEverywhere/issues](http://github.com/mvgrimes/DBIx-Class-AccessorsEverywhere/issues)
+Please report any bugs or feature requests on the bugtracker website [http://github.com/mvgrimes/DBIC-ResultSet-AccessorsEverywhere/issues](http://github.com/mvgrimes/DBIC-ResultSet-AccessorsEverywhere/issues)
 
 When submitting a bug or request, please include a test-file or a
 patch to an existing test-file that illustrates the bug or desired
@@ -77,7 +77,7 @@ Mark Grimes <mgrimes@cpan.org>
 
 # SOURCE
 
-Source repository is at [https://github.com/mvgrimes/DBIx-Class-AccessorsEverywhere](https://github.com/mvgrimes/DBIx-Class-AccessorsEverywhere).
+Source repository is at [https://github.com/mvgrimes/DBIC-ResultSet-AccessorsEverywhere](https://github.com/mvgrimes/DBIC-ResultSet-AccessorsEverywhere).
 
 # COPYRIGHT AND LICENSE
 

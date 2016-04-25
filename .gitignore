@@ -13,7 +13,7 @@ _build_params
 pm_to_blib
 dist.ini
 MANIFEST
-DBIx-Class-AccessorsEverywhere-*
+DBIx-Class-ResultSet-AccessorsEverywhere-*
 MANIFEST.bak
 exp/
 tmp/

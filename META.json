@@ -50,12 +50,12 @@
    "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
-         "web" : "http://github.com/mvgrimes/DBIx-Class-AccessorsEverywhere/issues"
+         "web" : "http://github.com/mvgrimes/DBIC-ResultSet-AccessorsEverywhere/issues"
       },
       "repository" : {
          "type" : "git",
-         "url" : "http://github.com/mvgrimes/DBIx-Class-AccessorsEverywhere.git",
-         "web" : "http://github.com/mvgrimes/DBIx-Class-AccessorsEverywhere"
+         "url" : "http://github.com/mvgrimes/DBIC-ResultSet-AccessorsEverywhere.git",
+         "web" : "http://github.com/mvgrimes/DBIC-ResultSet-AccessorsEverywhere"
       }
    },
    "version" : "0.10",
