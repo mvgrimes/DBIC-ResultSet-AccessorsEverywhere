@@ -95,7 +95,7 @@ version 0.10
 =for html <a href="https://travis-ci.org/mvgrimes/DBIC-ResultSet-AccessorsEverywhere"><img src="https://travis-ci.org/mvgrimes/DBIC-ResultSet-AccessorsEverywhere.svg?branch=master" alt="Build Status"></a>
 <a href="https://metacpan.org/pod/DBIx::Class::ResultSet::AccessorsEverywhere"><img alt="CPAN version" src="https://badge.fury.io/pl/DBIC-ResultSet-AccessorsEverywhere.svg" /></a>
 
-=head1 DESCRIPTION
+=head1 SYNOPSIS
 
     package Schema::ResultSet::User;
     use parent 'DBIx::Class::ResultSet';
@@ -124,6 +124,8 @@ version 0.10
     ## Your app:
     $schema->resultset('User')->create({ first_name => 'Bill' });
     $schema->resultset('User')->search({ first_name => 'Bill' });
+
+=head1 DESCRIPTION
 
 By specifying the C<accessor> attribute when defining a table schema,
 L<DBIx::Class> can change the name of accessors it creates for those columns.

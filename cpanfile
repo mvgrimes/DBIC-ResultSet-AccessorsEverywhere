@@ -8,4 +8,5 @@ on 'test' => sub {
     requires 'Try::Tiny';
     requires 'DBD::SQLite';
     requires 'SQL::Translator' => '0.11018';
+    requires 'Carp::Always';
 };
